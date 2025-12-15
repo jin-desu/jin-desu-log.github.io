@@ -1,0 +1,1 @@
+# jin-desu-log.github.io
