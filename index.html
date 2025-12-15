@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<h1>Jin Log</h1>
+<p>学習ログや趣味の記録、日常を置いています。</p>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%Y-%m-%d" }}
+    </li>
+  {% endfor %}
+</ul>
